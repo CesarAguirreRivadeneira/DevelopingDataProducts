@@ -1,0 +1,43 @@
+---
+title: "Reproducible Pitch Presentation"
+author: "Cesar Aguirre Rivadeneira"
+date: "15/8/2020"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Course Project
+
+Your Shiny Application
+
+1. Write a shiny application with associated supporting documentation. The documentation should be thought of as whatever a user will need to get started using your application.
+2. Deploy the application on Rstudio's shiny server
+3. Share the application link by pasting it into the provided text box
+4. Share your server.R and ui.R code on github
+
+## Application usage
+
+Taking advance on the diamonds dataset from de ggplot package, the shiny app created is going to predict the diamond price given the carat using a slider, the color and the cut selecting the values on a selector. 
+
+You can find the app on: 
+https://cesaraguirrerivadeneira.shinyapps.io/ShinyDiamondsCesarAguirre/
+
+You can find all the code from the app in the repository:
+https://github.com/CesarAguirreRivadeneira/DevelopingDataProducts
+
+## Diamonds dataset
+
+```{r ddd, echo = TRUE}
+library(ggplot2)
+summary(diamonds)
+```
+
+## Diamonds plot overview
+
+```{r diamonds}
+plot(diamonds$carat, diamonds$price, xlab = "Diamonds Price", ylab = "Carat", bty = "n",col=as.factor(diamonds$color),ylim = c(50, 20000))
+```
+
