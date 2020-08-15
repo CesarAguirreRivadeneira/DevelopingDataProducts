@@ -3,9 +3,9 @@ This repository contains all the code and applications needed for the shiny appl
 
 Github Repository: https://github.com/CesarAguirreRivadeneira/DevelopingDataProduct
 
-Shiny Application: https://r2po.shinyapps.io/course_project_shiny_appreproducible_pitch/
+Shiny Application: https://cesaraguirrerivadeneira.shinyapps.io/ShinyDiamondsCesarAguirre/
 
-Reproducible Pitch Presentation: http://rpubs.com/xavifu/265156
+Reproducible Pitch Presentation: https://rpubs.com/cesar2b/ReproduciblePitchPresentation
 
 # Description
 
